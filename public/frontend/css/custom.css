@@ -1,0 +1,9 @@
+.invalid-feedback{
+	display: block;
+}
+.uppercase {
+    text-transform: uppercase!important;
+}
+.badge{
+    cursor: pointer;
+}

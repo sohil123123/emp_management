@@ -1,0 +1,6 @@
+.invalid-feedback{
+	display: block;
+}
+.uppercase {
+    text-transform: uppercase!important;
+}
