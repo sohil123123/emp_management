@@ -61,12 +61,12 @@ class LoginController extends Controller
         return Auth::guard('admin');
     }
 
+    public function logoutToPath() {
+        return '/admin/login';
+    }
+
     public function logout() {
         Auth::guard('admin')->logout();
         return redirect()->route('admin.login')->with('success','Admin logout successfully.');
-    }
-
-    public function logoutToPath() {
-        return '/admin/login';
     }
 }
